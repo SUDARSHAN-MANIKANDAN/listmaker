@@ -1,0 +1,107 @@
+h1{
+    text-align: center;
+    background-color: gold;
+}
+.big{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px 10px;
+    text-align: center;
+    border: solid 2px;
+}
+h4{
+    height: 50px;
+    color : gold;
+    padding-top: 20px;
+    font-size: larger;
+    border: solid 2px silver;
+    border-radius: 100px;
+    box-shadow: 0 0 10px silver;
+}
+body{
+    background-color : black;
+}
+.small{
+    text-align: left;
+    margin: 0 20px;
+    background-color: goldenrod;
+    grid-template-columns: 50% 50%;
+
+}
+input{
+    width: 300px;
+    background-color: black;
+    color: silver;
+    text-align: center;
+    border-radius: 100px;
+    margin: 10px;
+    border:solid 1px white;
+    font-size:  medium;
+}
+input:hover{
+    background-color: palevioletred;
+    color: black;
+}
+
+.nd{
+ 
+    border: solid 2px palegoldenrod;
+    border-radius: 100px;
+    box-shadow: 0 0 10px palegoldenrod;
+
+    
+}
+.d{
+    border: solid 2px silver;
+    box-shadow: 0 0 10px silver;
+    border-radius: 100px;
+    color: gold;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+    
+
+}
+div.b{
+    text-align: center;
+    margin: 20px;
+}
+button{
+    width: 100px;
+    border-radius: 100px;
+    background-color: gold;
+    height: 50px;
+    font-weight: bold;
+}
+button:hover{
+    height: 60px;
+    background-color: palegreen;
+}
+
+input[type="checkbox"] {
+    accent-color: green;
+    height: 20px;
+    
+}
+input[type="checkbox"]:hover {
+    accent-color: red;
+    
+    height: 25px;
+    
+}
+input.in{
+    border: solid 2px silver;
+    box-shadow: 0 0 10px silver;
+}
+@media screen and (max-width:600px) {
+    input{
+        width: 20px;
+    }
+    .in{
+        width: 100px;
+        font-size: small;
+    }
+
+}
+
